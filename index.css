@@ -1,0 +1,43 @@
+/* @Import On Google CSS Font Styling*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+
+.form-div {
+
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    border: 1px solid#000000;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+form p {
+    font-size: 0.9em;
+}
+
+
+.form-div.login {
+    margin-top: 100px;
+
+}
+
+
+.logout {
+
+    color: red;
+}
